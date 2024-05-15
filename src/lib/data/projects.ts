@@ -138,7 +138,7 @@ export const items: Array<Project> = [
 			from: new Date(2023, 8, 1),
 			to: new Date(2024, 1, 1)
 		},
-		skills: getSkills('Android'),
+		skills: getSkills('Android','Firebase'),
 		type: 'Android App',
 		screenshots: [
 			{
