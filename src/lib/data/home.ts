@@ -3,39 +3,45 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'OM';
 
-export const lastName = 'LastName';
+export const lastName = 'VATALIYA';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'I am a Beta Microsoft Learn Student Ambassador (MLSA) and a ' +
+	'BCA Computer Science student at Maharaja Sayajirao University ' +
+	'(MSU). I have a passion for innovation and problem-solving, and I ' +
+	'enjoy exploring and mastering various tech stacks. ' +
+	'As the founder of God² Tech Hub, I lead collaborative initiatives ' +
+	'that drive technological advancements in our community. '
+	;
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/Omcodes23' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/omcodes23'
 	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
-	{
-		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+	// {
+	// 	platform: Platform.Twitter,
+	// 	link: 'https://twitter.com/'
+	// },
+	// {
+	// 	platform: Platform.StackOverflow,
+	// 	link: 'https://stackoverflow.com/'
+	// },
+	// {
+	// 	platform: Platform.Email,
+	// 	link: 'riadh_adrani@hotmail.fr'
+	// },
+	// {
+	// 	platform: Platform.Youtube,
+	// 	link: 'https://www.youtube.com'
+	// },
+	// {
+	// 	platform: Platform.Facebook,
+	// 	link: 'https://www.facebook.com'
+	// }
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('html','css','Bootstrap','Tailwind', 'js', 'reactjs', 'sass', 'svelte', 'ts' ,'python','Android','C','Cpp','Firebase','Illustrator','MongoDB','Photoshop','PostgreSQL','Vite','java');

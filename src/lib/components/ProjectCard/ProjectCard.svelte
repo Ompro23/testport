@@ -4,6 +4,8 @@
 	import Card from '../Card/Card.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
 	import CardLink from '../Card/CardLink.svelte';
+	import CardLinkLive from '../Card/CardLinkLive.svelte';
+
 	import CardDivider from '../Card/CardDivider.svelte';
 	import ChipIcon from '../Chip/ChipIcon.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';

@@ -3,28 +3,28 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Bachelor of Computer Application',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Vadodara,Gujarat,India',
+		logo: Assets.MSU,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Maharaja Sayajirao University',
+		period: { from: new Date(2022, 5, 1), to: new Date(2025, 6, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'MSU',
+		subjects: ['Python','C','C++','Java','Sql','Servlet','JSP','Shell']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Higher Secondry (Commerce)',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Vdodara,Gujarat,India',
+		logo: Assets.Alembic,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Alembic Vidyalay',
+		period: { from: new Date(2019, 0, 1) ,to: new Date(2021, 6, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'Alembic',
+		subjects: ['BA', 'Accounts', 'Stat', 'SPCC','Economics']
 	}
 ];
 
