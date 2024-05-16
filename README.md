@@ -29,3 +29,7 @@ if you did all the above `CORRECTLY`, and no workflow was launched, try to push 
 
 - Svelte no longer support `node 14`, use a newer version instead.
 - hi
+
+## Setps for deployment
+- change the branch name ot main in deploy.yaml file
+- change the name of base paramter of sevlte.config ot the name off the repository
